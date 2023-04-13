@@ -26,7 +26,6 @@ public class file {
             File f3 = new File(f2, s2);      //目的地的绝对路径
             bfdw = new BufferedWriter(new FileWriter(f3));
             bfdw.write(c1);
-
         }
         bfdr.close();
         bfdw.close();
